@@ -57,6 +57,6 @@ void reverseFtoC()
 int main()
 {
     fahrenheitToCelsius();
-    celsiusToFahrenheit();
-    reverseFtoC();
+    //celsiusToFahrenheit();
+    //reverseFtoC();
 }
