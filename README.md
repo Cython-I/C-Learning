@@ -22,7 +22,7 @@ Chapter_X
 ├── notes
 │   ├── topic1.c
 │   ├── topic2.txt
-│   └── topic3.txt
+│   └── topic3.md
 ├── src
 │   ├── Exercise_X_1.c
 │   └── Exercise_X_2.c
