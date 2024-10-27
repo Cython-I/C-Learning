@@ -4,10 +4,16 @@
 
 int main()
 {
-    printf("The range of int is: %d to %d\n", 0, 0);
+    printf("The range of signed int is: %d to %d\n", 0, 0);
     printf("The range of unsigned int is: 0 to %u\n", 0);
 
-    printf("The range for char is: %d to %d\n", 0, 0);
+    printf("The range of signed short is: %d to %d\n", 0, 0);
+    printf("The range of unsigned short is: 0 to %u\n", 0);
+
+    printf("The range of signed long is: %d to %d\n", 0, 0);
+    printf("The range of unsigned long is: 0 to %u\n", 0);
+
+    printf("The range for signed char is: %d to %d\n", 0, 0);
     printf("The range for unsigned char is 0 to %u\n", 0);
 
     printf("The range for float is: %f to %f\n", 0.0f, 0.0f);

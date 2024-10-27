@@ -71,6 +71,8 @@ make clean
 ***Note on Make***
 Make is pretty useful, and CMake even more so, after you finish K&R I would highly suggest you familarize yourself with [Make](https://makefiletutorial.com/) and [CMake](https://cmake.org/). Stuck to only Make as I wanted things to be as simple as possible for someone learning C for the first time, and Make even without much knowledge on it, is pretty simple to follow and extend for a simple project like this. Although my intention for this is to make it so that you will not need to touch Make at all while learning C. One thing at a time c:
 
+Make sure you have no spaces after any of the dirs...trust me lol
+
 ## Credit
 Kernighan, B. W., & Ritchie, D. M. (1988). The C programming language (2nd ed.). Prentice Hall.
 
