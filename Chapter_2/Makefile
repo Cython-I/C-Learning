@@ -6,7 +6,7 @@ CFLAGS = -Wall -g
 LDFLAGS = -lcheck
 
 # Directories
-SRC_DIR = src
+SRC_DIR = src  # change to src_for_user if testing your own code!
 INCLUDE_DIR = include
 TEST_DIR = test
 
