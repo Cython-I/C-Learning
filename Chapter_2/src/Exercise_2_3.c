@@ -20,12 +20,10 @@ int htoi2(char s[])
     int len = strlen(s);
     char c;
     int end = -1;
-    int start = len -1;
+    int start = len - 1;
     int p = 0;
     double base = 16.0;
     int result = 0;
-
-    
 
     // Check if 0x is present size must atleast be 2
     if (len >= 2)
@@ -41,19 +39,20 @@ int htoi2(char s[])
         if (isdigit(c) || (c >= 'A' && c <= 'F'))
         {
             double digit = 0;
-            if((c >= 'A' && c <= 'F'))
+            if ((c >= 'A' && c <= 'F'))
             {
                 digit = 10 + (c - 'A');
-
-            }else{
+            }
+            else
+            {
                 digit = c - '0';
             }
-            
+
             result += digit * pow(base, p); // -lm
         }
         else
         {
-            printf("AN ERROR HAS OCCURED %c is not a digit!\n",c);
+            printf("AN ERROR HAS OCCURED %c is not a digit!\n", c);
             return -1;
         }
         --start;
