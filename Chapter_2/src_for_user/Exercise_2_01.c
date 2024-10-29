@@ -1,22 +1,19 @@
+#include "../include/ranges.h"
 #include <float.h>
-#include <limits.h>
-#include <stdio.h>
+#include <math.h>
 
-int main()
+// Print out the ranges too, but in another file or comment out after similar to my implementation, printf is not really
+// something I value testing here and gets in the way of the testing
+
+void getCharRanges(int *signed_min, int *signed_max, unsigned int *unsigned_max)
 {
-    printf("The range of signed int is: %d to %d\n", 0, 0);
-    printf("The range of unsigned int is: 0 to %u\n", 0);
-
-    printf("The range of signed short is: %d to %d\n", 0, 0);
-    printf("The range of unsigned short is: 0 to %u\n", 0);
-
-    printf("The range of signed long is: %d to %d\n", 0, 0);
-    printf("The range of unsigned long is: 0 to %u\n", 0);
-
-    printf("The range for signed char is: %d to %d\n", 0, 0);
-    printf("The range for unsigned char is 0 to %u\n", 0);
-
-    printf("The range for float is: %f to %f\n", 0.0f, 0.0f);
-    printf("The range for double is %f to %f\n", 0.0, 0.0);
-    printf("The range for long double is %Lf to %Lf\n", 0.0l, 0.0l);
+}
+void getShortRanges(int *signed_min, int *signed_max, unsigned int *unsigned_max)
+{
+}
+void getIntRanges(int *signed_min, int *signed_max, unsigned int *unsigned_max)
+{
+}
+void getLongRanges(long int *signed_min, long int *signed_max, unsigned long int *unsigned_max)
+{
 }

@@ -3,7 +3,7 @@
 # Compiler and flags
 CC = clang
 CFLAGS = -Wall -g
-LDFLAGS = -lcheck
+LDFLAGS = -lcheck -lm
 
 # Directories # change to src_for_user if testing your own code!
 INCLUDE_DIR = include
@@ -14,7 +14,7 @@ TEST_DIR =  test
 
 # Source files and object files
 
-SRCS = $(TEST_DIR)/test.c $(SRC_DIR)/Exercise_2_04.c $(SRC_DIR)/Exercise_2_06.c $(SRC_DIR)/Exercise_2_07.c  $(SRC_DIR)/Exercise_2_08.c  #$(wildcard $(SRC_DIR)/*.c) #when done
+SRCS = $(TEST_DIR)/test.c $(SRC_DIR)/Exercise_2_01.c $(SRC_DIR)/Exercise_2_04.c $(SRC_DIR)/Exercise_2_06.c $(SRC_DIR)/Exercise_2_07.c  $(SRC_DIR)/Exercise_2_08.c  #$(wildcard $(SRC_DIR)/*.c) #when done
 OBJS = $(SRCS:.c=.o)
 $(info SRC_DIR = $(SRC_DIR))
 $(info SRCS = $(SRCS))
