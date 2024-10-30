@@ -14,7 +14,7 @@ TEST_DIR =  test
 
 # Source files and object files
 
-SRCS = $(TEST_DIR)/test.c $(SRC_DIR)/Exercise_2_01.c $(SRC_DIR)/Exercise_2_04.c $(SRC_DIR)/Exercise_2_06.c $(SRC_DIR)/Exercise_2_07.c  $(SRC_DIR)/Exercise_2_08.c  #$(wildcard $(SRC_DIR)/*.c) #when done
+SRCS = $(TEST_DIR)/test.c $(wildcard $(SRC_DIR)/*.c) 
 OBJS = $(SRCS:.c=.o)
 $(info SRC_DIR = $(SRC_DIR))
 $(info SRCS = $(SRCS))

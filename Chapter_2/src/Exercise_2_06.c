@@ -1,6 +1,6 @@
 #include "../include/bits.h"
 
-unsigned setbits(unsigned char x, int p, int n, unsigned char y)
+unsigned setBits(unsigned char x, int p, int n, unsigned char y)
 {
     // This was actually pretty hard, the idea is simple, but generating the mask took a minute
     unsigned char mask = 0x7F;

@@ -1,6 +1,6 @@
 #include "../include/bits.h"
 
-int rightrot(int x, int n)
+int rightRot(int x, int n)
 {
     int mask = ~0;
     mask <<= n; // do recall that we push in signed bits with this, this will get intresting....
@@ -12,7 +12,7 @@ int rightrot(int x, int n)
     return og | v;
 }
 
-unsigned char rightrotsimple(unsigned char x, int n)
+unsigned char rightRotChar(unsigned char x, int n)
 {
     unsigned char mask = ~0;
     mask <<= n;
