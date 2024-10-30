@@ -7,8 +7,8 @@ void printEOF();
 int main()
 {
     echo();
-    //verifyEcho();
-    //printEOF();
+    // verifyEcho();
+    // printEOF();
 }
 
 /*
@@ -32,7 +32,7 @@ void verifyEcho()
     int result = (c = getchar()) != EOF;
     if (result != 1 && result != 0)
     {
-        printf("An error has occured! Result:%d\n",result);
+        printf("An error has occured! Result:%d\n", result);
         return;
     }
     printf("Verifed!\n");
@@ -43,5 +43,5 @@ void verifyEcho()
 */
 void printEOF()
 {
-    printf("The value of EOF is: %d\n",EOF);
+    printf("The value of EOF is: %d\n", EOF);
 }

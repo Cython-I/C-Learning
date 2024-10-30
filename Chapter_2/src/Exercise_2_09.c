@@ -1,1 +1,8 @@
-// Will come back to this one, I get the basic idea, but was pretty sleepy
+/*
+* Exercise 2-9 : WIP
+* ================================================================
+* In a two's complement number system, x &= (x-1) deletes the
+* rightmost 1-bit in x. Explain why. Use this observation to write a faster
+* version of bitcount.
+*/
+
